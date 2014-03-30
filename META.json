@@ -1,0 +1,101 @@
+{
+   "abstract" : "class builder for memory-efficient objects",
+   "author" : [
+      "Toby Inkster (TOBYINK) <tobyink@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Inkt::Profile::TOBYINK version 0.015, CPAN::Meta::Converter version 2.120921",
+   "keywords" : [],
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Marmoset",
+   "no_index" : {
+      "directory" : [
+         "eg",
+         "examples",
+         "inc",
+         "t",
+         "xt"
+      ]
+   },
+   "optional_features" : {},
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.17"
+         }
+      },
+      "develop" : {
+         "recommends" : {
+            "Dist::Inkt" : "0.001"
+         }
+      },
+      "runtime" : {
+         "recommends" : {
+            "Sub::Name" : "0",
+            "Type::Utils" : "0"
+         },
+         "requires" : {
+            "Eval::TypeTiny" : "0",
+            "Exporter::Shiny" : "0",
+            "Sub::Accessor::Small" : "0",
+            "perl" : "5.008003"
+         },
+         "suggests" : {
+            "Class::Method::Modifiers" : "0",
+            "MRO::Compat" : "0",
+            "Role::Tiny" : "0",
+            "Types::Standard" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::Modern" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Marmoset" : {
+         "file" : "lib/Marmoset.pm",
+         "version" : "0.000_01"
+      },
+      "Marmoset::Attribute" : {
+         "file" : "lib/Marmoset.pm",
+         "version" : "0.000_01"
+      },
+      "Marmoset::Attribute::Field" : {
+         "file" : "lib/Marmoset.pm",
+         "version" : "0.000_01"
+      },
+      "Marmoset::Attribute::InsideOut" : {
+         "file" : "lib/Marmoset.pm",
+         "version" : "0.000_01"
+      },
+      "Marmoset::Object" : {
+         "file" : "lib/Marmoset.pm",
+         "version" : "0.000_01"
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "X_identifier" : "http://purl.org/NET/cpan-uri/dist/Marmoset/project",
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/Dist/Display.html?Queue=Marmoset"
+      },
+      "homepage" : "https://metacpan.org/release/Marmoset",
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/tobyink/p5-marmoset.git",
+         "web" : "https://github.com/tobyink/p5-marmoset"
+      }
+   },
+   "version" : "0.000_01"
+}
